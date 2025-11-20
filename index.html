@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="intellectualtux">
+    <meta name="description" content="COMING SOON!!!1!">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="/img/favicon.gif">
+    <title>C0MING S00N - 100% Real Website</title>
+    <style>
+        * { margin: 0; padding: 0; cursor: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"><text y="24" font-size="24">🐧</text></svg>'), auto; }
+
+        body {
+            min-height: 100vh;
+            background: repeating-linear-gradient(45deg, #ff00ff, #00ffff 10px, #ffff00 10px, #ff00ff 20px);
+            font-family: "Comic Sans MS", "Papyrus", cursive;
+            overflow-x: hidden;
+        }
+
+        a.banner-link {
+            display: block;
+            background: red;
+            color: yellow;
+            padding: 5px;
+            font-size: 12px;
+            animation: blink 0.3s infinite;
+            text-align: center;
+            text-decoration: none;
+        }
+
+        a.banner-link:hover {
+            background: yellow;
+            color: red;
+        }
+
+        .container {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .image-wrapper {
+            display: inline-block;
+            border: 8px dashed lime;
+            padding: 10px;
+            background: url('data:image/gif;base64,R0lGODlhCgAKAIAAAP///wAAACH5BAEAAAEALAAAAAAKAAoAAAIRjI+py+0Po5y02ouz3rz7rxUAOw==');
+            animation: spin 4s linear infinite, shake 0.1s infinite;
+            transform-origin: center;
+        }
+
+        .image-wrapper img {
+            max-width: 400px;
+            width: 100%;
+            filter: saturate(3) hue-rotate(90deg);
+            animation: hueShift 2s infinite;
+        }
+
+        h1 {
+            color: red;
+            font-size: 4rem;
+            text-shadow: 3px 3px blue, -3px -3px green, 5px 5px yellow;
+            animation: rainbow 0.5s infinite, wobble 0.2s infinite;
+            margin: 20px 0;
+        }
+
+        .subtitle {
+            background: black;
+            color: lime;
+            font-size: 1.5rem;
+            padding: 10px;
+            display: inline-block;
+            animation: blink 0.5s infinite;
+        }
+
+        .floater {
+            position: fixed;
+            font-size: 40px;
+            animation: swim 3s linear infinite;
+            z-index: 999;
+        }
+
+        .penguin {
+            position: fixed;
+            font-size: 50px;
+            animation: waddle 4s linear infinite;
+            z-index: 999;
+        }
+
+        .marquee-top {
+            background: navy;
+            color: yellow;
+            padding: 10px;
+            font-size: 20px;
+            white-space: nowrap;
+            overflow: hidden;
+        }
+
+        .marquee-top span {
+            display: inline-block;
+            animation: scroll 15s linear infinite;
+        }
+
+        .counter {
+            background: gray;
+            border: 3px inset;
+            padding: 10px;
+            margin: 20px auto;
+            width: fit-content;
+            font-family: "Times New Roman";
+        }
+
+        .form-section {
+            background: silver;
+            border: 3px outset;
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 400px;
+        }
+
+        .form-section input {
+            font-family: "Comic Sans MS";
+            padding: 5px;
+            border: 2px inset;
+            width: 200px;
+        }
+
+        .form-section button {
+            background: linear-gradient(silver, gray);
+            border: 3px outset;
+            font-family: "Comic Sans MS";
+            padding: 5px 15px;
+        }
+
+        .badge { margin: 10px; }
+
+        .guestbook {
+            color: fuchsia;
+            font-size: 24px;
+            text-decoration: underline overline;
+            animation: blink 0.8s infinite;
+        }
+
+        .under-construction {
+            font-size: 60px;
+            animation: bounce 0.5s infinite;
+        }
+
+        .penguin-parade {
+            font-size: 30px;
+            letter-spacing: 10px;
+            animation: penguinDance 0.3s infinite;
+        }
+
+        .penguin-says {
+            background: white;
+            border: 3px solid black;
+            border-radius: 20px;
+            padding: 15px;
+            margin: 20px auto;
+            max-width: 300px;
+            position: relative;
+        }
+
+        .penguin-says::after {
+            content: "🐧";
+            font-size: 60px;
+            position: absolute;
+            bottom: -50px;
+            right: 20px;
+        }
+
+        @keyframes blink { 50% { opacity: 0; } }
+        @keyframes spin { to { transform: rotate(360deg); } }
+        @keyframes shake {
+            0%, 100% { transform: rotate(360deg) translateX(-2px); }
+            50% { transform: rotate(360deg) translateX(2px); }
+        }
+        @keyframes hueShift { to { filter: saturate(3) hue-rotate(450deg); } }
+        @keyframes rainbow {
+            0% { color: red; }
+            25% { color: yellow; }
+            50% { color: lime; }
+            75% { color: cyan; }
+            100% { color: magenta; }
+        }
+        @keyframes wobble {
+            0%, 100% { transform: skewX(-5deg); }
+            50% { transform: skewX(5deg); }
+        }
+        @keyframes swim {
+            0% { left: -50px; top: 20%; }
+            25% { top: 60%; }
+            50% { top: 30%; }
+            75% { top: 70%; }
+            100% { left: 110%; top: 40%; }
+        }
+        @keyframes waddle {
+            0% { right: -50px; bottom: 10%; transform: scaleX(1); }
+            49% { transform: scaleX(1) rotate(-10deg); }
+            50% { transform: scaleX(1) rotate(10deg); right: 50%; }
+            100% { right: 110%; transform: scaleX(-1); bottom: 10%; }
+        }
+        @keyframes scroll { to { transform: translateX(-50%); } }
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-20px); }
+        }
+        @keyframes penguinDance {
+            0%, 100% { transform: rotate(-5deg); }
+            50% { transform: rotate(5deg); }
+        }
+    </style>
+</head>
+<body>
+<a href="https://kofi.tux.fish" class="banner-link">⚠️🐧 WARNING: This site is 100% SAFE and LEGITIMATE - Verified by PenguinProtect™ Security 🐧⚠️ DON'T CLICK HERE</a>
+
+<div onclick="window.open('https://kofi.tux.fish','mywindow');" style="cursor: pointer;" class="marquee-top">
+    <span>🐧🐟🐧 HOT NEW WEBSITE COMING SOON!!! 🐧🐟🐧 YOU ARE VISITOR #13,103,013 🐧🐟🐧 PENGUINS APPROVE THIS MESSAGE 🐧🐟🐧 CLICK HERE FOR FREE STUFF 🐧🐟🐧 NO FISH HAVE BEEN HARMED IN THE MAKING OF THIS WEBSITE! 🐧🐟🐧 🐧🐟🐧 HOT NEW WEBSITE COMING SOON!!! 🐧🐟🐧 YOU ARE VISITOR #13,103,013 🐧🐟🐧 PENGUINS APPROVE THIS MESSAGE 🐧🐟🐧 CLICK HERE FOR FREE STUFF 🐧🐟🐧 NO FISH HAVE BEEN HARMED IN THE MAKING OF THIS WEBSITE! 🐧🐟🐧 🐧🐟🐧 HOT NEW WEBSITE COMING SOON!!! 🐧🐟🐧 YOU ARE VISITOR #13,103,013 🐧🐟🐧 PENGUINS APPROVE THIS MESSAGE 🐧🐟🐧 CLICK HERE FOR FREE STUFF 🐧🐟🐧 NO FISH HAVE BEEN HARMED IN THE MAKING OF THIS WEBSITE! 🐧🐟🐧 </span>
+</div>
+
+<div class="floater">🐟</div>
+<div class="floater" style="animation-delay: 1s; font-size: 60px;">🐠</div>
+<div class="floater" style="animation-delay: 2s;">🦈</div>
+
+<div class="penguin">🐧</div>
+<div class="penguin" style="animation-delay: 1.5s; font-size: 35px;">🐧</div>
+<div class="penguin" style="animation-delay: 3s; font-size: 65px;">🐧</div>
+
+<div class="container">
+    <div class="under-construction">🚧🐧🚧</div>
+
+    <div class="penguin-parade">🐧🐠🐧🐠🐧🐠🐧</div>
+
+    <div class="image-wrapper">
+        <img src="/img/gento-fish.jpg" alt="Totally normal image">
+    </div>
+
+    <h1>COMING S00N!!1!</h1>
+    <div class="subtitle">>>> TRUST MEEEEEEEEEE! <<<</div>
+
+    <div class="penguin-says">
+        <p><b>🎤 Testimonials:</b></p>
+        <p><i>"This website is totally legitimate and made by a real penguin" - everyone</i></p>
+    </div>
+
+    <div class="counter">
+        You are visitor #: <span style="color:red; font-weight:bold;">13,103,013</span>
+        <br><small>(verified by our anchovy accountants)</small>
+    </div>
+
+    <div class="form-section">
+        <p style="color:red; font-weight:bold;">🎉🐟 YOU WON!!! 🐟🎉</p>
+        <p>Enter email to claim FREE FISH:</p>
+        <input type="text" placeholder="your.real.email@mail.com"><br><br>
+        <input type="text" placeholder="also your SSN (who dis?)"><br><br>
+        <button onclick="alert('🐧 Thank you for your trust! You have not been robbed at all! (sign guestbook below if youd like) 🐧')">CLAIM FISH NOW</button>
+    </div>
+
+    <a href="https://discord.gg/wemrqHBQzB" class="guestbook">~ Sign Our Guestbook (Everyone Welcome) ~</a>
+
+    <div class="penguin-parade">🐧🐧🐧🐧🐧🐧🐧</div>
+
+    <div style="margin-top:20px;">
+        <span class="badge">🏆 Best Website Since 1999</span>
+        <span class="badge">✅ Penguin Approved</span>
+        <span class="badge">🐟 100% Real Fish</span>
+        <span class="badge">🔒 PenguinSSL Secured</span>
+    </div>
+
+    <p style="margin-top:30px; font-size:10px; color:gray;">
+        © 2025 Tux-Fish LLC | Definitely Not a Scam | Contact: tux@antarcticmail.ac (real (fr (totally)))
+        <br>🐧🐧🐧🐧🐧🐧🐧🐧🐧🐧🐧🐧🐧🐧🐧
+    </p>
+</div>
+</body>
+</html>
