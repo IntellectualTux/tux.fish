@@ -1,0 +1,66 @@
+body {
+    font-family: -apple-system, sans-serif;
+    text-align: center;
+    padding: 40px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+hr {
+    width: 20%;
+    margin: 20px auto;
+    border: 0;
+    border-top: 1px solid #eee;
+}
+
+footer {
+    margin-top: 60px;
+    padding: 20px 0;
+    border-top: 1px solid #eee;
+    font-size: 0.9em;
+    color: #777;
+}
+
+footer a {
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+footer a.email {
+    color: coral;
+}
+
+footer a.kofi {
+    color: seagreen;
+}
+
+footer a.twitch {
+    color: blueviolet;
+}
+
+footer a.discord {
+    color: royalblue;
+}
+
+footer a.freestuff {
+    color: fuchsia;
+}
+
+footer a.sagi {
+    color: darkcyan;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+sub {
+    padding: 0;
+    margin: 0;
+}
