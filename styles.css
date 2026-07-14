@@ -60,6 +60,17 @@ footer a:hover {
     text-decoration: underline;
 }
 
+.small-link {
+    font-size: 0.7em; /* Make it tiny */
+    color: #888; /* A subtle color */
+    text-decoration: none;
+    margin-left: 0px;
+}
+
+.small-link:hover {
+    text-decoration: underline;
+}
+
 sub {
     padding: 0;
     margin: 0;
