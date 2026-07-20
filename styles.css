@@ -21,6 +21,20 @@ hr {
 .project-separator {
     width: 10%;
 }
+a.project {
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+a.project:hover {
+    text-decoration: underline;
+}
+#instafish {
+    color: slateblue;
+}
+#inspofish {
+    color: hotpink;
+}
+
 footer {
     margin-top: 60px;
     padding: 20px 0;
