@@ -94,3 +94,10 @@ sub {
     padding: 0;
     margin: 0;
 }
+#social-username {
+    font-size: 0.7em;
+    color: lightslategrey;
+    margin-top: 10px;
+    margin-bottom: 0;
+    padding-bottom: 4px;
+}
