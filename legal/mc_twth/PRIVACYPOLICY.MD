@@ -3,6 +3,8 @@
 **Effective Date:** September 2, 2026  
 **Last Updated:** September 2, 2026  
 
+---
+
 ### 1. Introduction
 **Intellectual Tux** ("I", "me", or "my") operates **MC_TWTH** (the "Service"). This Privacy Policy explains how I handle data when you use the Application. 
 
