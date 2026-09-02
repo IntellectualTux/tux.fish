@@ -6,9 +6,9 @@
 ---
 
 ### 1. Introduction
-**Intellectual Tux** ("I", "me", or "my") operates **MC_TWTH** (the "Service"). This Privacy Policy explains how I handle data when you use the Application. 
+**IntellectualTux** ("I", "me", or "my") operates **MC_TWTH** (the "Service"). This Privacy Policy explains how I handle data when you use the Application. 
 
-For the purposes of applicable data protection legislation—including **Moroccan Law No. 09-08** relating to the protection of individuals with regard to the processing of personal data—Intellectual Tux acts as the data controller.
+For the purposes of applicable data protection legislation—including **Moroccan Law No. 09-08** relating to the protection of individuals with regard to the processing of personal data—IntellectualTux acts as the data controller.
 
 ---
 
@@ -67,5 +67,5 @@ I may update this Privacy Policy from time to time. Any updates will be reflecte
 ### 9. Contact
 For any questions regarding this Privacy Policy or to submit a data access or deletion request, contact:
 
-**Intellectual Tux**  
+**IntellectualTux**  
 Email: intellectualtux@proton.me

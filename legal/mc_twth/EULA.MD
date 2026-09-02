@@ -7,7 +7,7 @@
 
 ## 1. Acceptance of This Agreement
 
-This End-User License Agreement (the "**Agreement**" or "**EULA**") is a binding legal contract between **Intellectual Tux** ("**I**", "**me**", or "**my**") and you ("**you**" or "**your**") governing your use of **MC_TWTH** and any related documentation, updates, and components (the "**Application**"). It applies whether the Application is downloaded, pre-installed, accessed online, or delivered through a third-party platform or application store.
+This End-User License Agreement (the "**Agreement**" or "**EULA**") is a binding legal contract between **IntellectualTux** ("**I**", "**me**", or "**my**") and you ("**you**" or "**your**") governing your use of **MC_TWTH** and any related documentation, updates, and components (the "**Application**"). It applies whether the Application is downloaded, pre-installed, accessed online, or delivered through a third-party platform or application store.
 
 By downloading, installing, copying, accessing, or otherwise using the Application, or by clicking "I Agree" (or similar confirmation), you confirm that you have read and understood this Agreement and that you agree to be bound by its terms. If you do not agree, do not download, install, or use the Application, and immediately delete any copies in your possession.
 
@@ -58,7 +58,7 @@ Except to the extent explicitly authorized by this Agreement or mandatory applic
 
 The Application—including its source code, executable code, visual elements, layout, sound design, interface design, algorithms, and Documentation—is protected by copyright, trademark, and intellectual property legislation, including **Moroccan Law No. 2-00 on Copyright and Related Rights** (as amended).
 
-* **Trademarks:** "**Intellectual Tux**", "**MC_TWTH**", and associated logos or branding elements are my trademarks. You receive no right or license to use these trademarks without prior written authorization.
+* **Trademarks:** "**IntellectualTux**", "**MC_TWTH**", and associated logos or branding elements are my trademarks. You receive no right or license to use these trademarks without prior written authorization.
 * **Feedback:** If you provide suggestions, feature requests, error reports, or feedback regarding the Application, you grant me a perpetual, irrevocable, worldwide, royalty-free, fully paid-up, and sublicensable license to use, implement, and commercialize such feedback without restriction or financial obligation to you.
 * **Third-Party Components:** The Application may contain third-party or open-source software libraries. Details regarding these components and their respective licenses are listed in the Documentation. Open-source licenses govern those specific components and take precedence over this EULA in the event of direct conflict.
 
@@ -87,7 +87,7 @@ I explicitly disclaim all representations and warranties, whether express, impli
 
 To the fullest extent allowed by applicable Moroccan legislation:
 
-1. **Consequential Damages:** In no event shall Intellectual Tux be liable to you or any third party for any indirect, incidental, special, consequential, or punitive damages, or for loss of profits, business revenue, data, goodwill, or operational disruption, regardless of the theory of liability (contract, tort, negligence, or strict liability), even if advised of the possibility of such damages.
+1. **Consequential Damages:** In no event shall IntellectualTux be liable to you or any third party for any indirect, incidental, special, consequential, or punitive damages, or for loss of profits, business revenue, data, goodwill, or operational disruption, regardless of the theory of liability (contract, tort, negligence, or strict liability), even if advised of the possibility of such damages.
 2. **Cap on Liability:** My aggregate total liability arising out of or related to this Agreement or the use of the Application shall in no circumstances exceed the total fees paid by you for the Application during the twelve (12) calendar months preceding the claim, or **100 MAD (Moroccan Dirham)**, whichever is lower.
 
 *Nothing in this Agreement excludes or restricts liability for gross negligence, intentional misconduct, death, or personal injury where such limitation is prohibited under mandatory Moroccan law.*
@@ -96,7 +96,7 @@ To the fullest extent allowed by applicable Moroccan legislation:
 
 ## 9. Indemnification
 
-To the fullest extent permitted by law, you agree to defend, indemnify, and hold harmless Intellectual Tux from and against any third-party claims, suits, actions, losses, liabilities, damages, costs, and expenses (including reasonable attorney and legal fees) arising out of or resulting from:
+To the fullest extent permitted by law, you agree to defend, indemnify, and hold harmless IntellectualTux from and against any third-party claims, suits, actions, losses, liabilities, damages, costs, and expenses (including reasonable attorney and legal fees) arising out of or resulting from:
 
 * Your use or misuse of the Application;
 * Your breach of any provision of this EULA;
@@ -131,7 +131,7 @@ Your continued use of the Application following the publication of revised terms
 
 ## 13. General Provisions
 
-* **Entire Agreement:** This EULA, along with any documents incorporated by reference, constitutes the complete and exclusive agreement between you and Intellectual Tux concerning the Application and supersedes all prior or contemporaneous agreements, understandings, or representations.
+* **Entire Agreement:** This EULA, along with any documents incorporated by reference, constitutes the complete and exclusive agreement between you and IntellectualTux concerning the Application and supersedes all prior or contemporaneous agreements, understandings, or representations.
 * **Severability:** If any provision of this EULA is held to be invalid, illegal, or unenforceable by a court of competent jurisdiction, that provision shall be modified to the minimum extent necessary to make it valid and enforceable, and the remaining provisions shall remain in full force and effect.
 * **No Waiver:** Failure to enforce any right or provision of this Agreement shall not constitute a waiver of future enforcement of that or any other provision.
 * **Assignment:** You may not assign, transfer, or delegate your rights or obligations under this EULA without prior written consent. I reserve the right to assign or transfer this Agreement in whole or in part without restriction.
@@ -143,6 +143,6 @@ Your continued use of the Application following the publication of revised terms
 
 If you have questions, feedback, or legal inquiries regarding this EULA, please reach out to:
 
-**Intellectual Tux**  
+**IntellectualTux**  
 **Email:** intellectualtux@proton.me  
 **Country:** Kingdom of Morocco
