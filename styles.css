@@ -334,7 +334,7 @@ color: var(--c-sakenna);
 
 /* Running project link colors (keyed off projects.json "id", matches #project-<id>) */
 #project-spotifish .name a{color:var(--c-spoti);}
-#project-mc_twth .name a{color:var(--c-mctwth);}
+#project-mc-twth .name a{color:var(--c-mctwth);}
 #project-instafish .name a{color:var(--c-insta);}
 #project-inspofish .name a{color:var(--c-inspo);}
 
