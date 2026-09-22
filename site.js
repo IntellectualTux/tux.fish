@@ -1,6 +1,5 @@
-// tux.fish -- dynamic loader & client functionality
+
 (function () {
-  // Theme Toggle: defaults to light, manual toggle persists in localStorage
   function initTheme() {
     const savedTheme = localStorage.getItem('tux_theme');
     if (savedTheme === 'dark') {
@@ -35,10 +34,8 @@
     toggleBtn.innerHTML = `<span aria-hidden="true">${isDark ? '☼' : '☾'}</span>`;
   }
 
-  // Clickable card delegation: clicking the card navigates, but clicking inner <a> works directly
   function initCardClicks() {
     document.addEventListener('click', function (e) {
-      // If user clicked directly on or inside an anchor or button, let the native link work
       if (e.target.closest('a, button')) return;
 
       const card = e.target.closest('.info-card[data-href], .callout[data-href]');
@@ -54,7 +51,6 @@
       }
     });
 
-    // Keyboard support for cards
     document.addEventListener('keydown', function (e) {
       if ((e.key === 'Enter' || e.key === ' ') && e.target.matches('.info-card[data-href], .callout[data-href]')) {
         e.preventDefault();
@@ -74,7 +70,6 @@
   }
 
   function renderProject(item, showBadge) {
-    // Color comes from CSS (styles.css targets #project-<id> .name a), not inline styles.
     const nameHtml = item.url
       ? `<a href="${escapeHtml(item.url)}">${escapeHtml(item.name)}</a>`
       : escapeHtml(item.name);
@@ -102,7 +97,6 @@
   }
 
   function renderFriend(item) {
-    // Color comes from CSS (styles.css targets #<id>-title a), not inline styles.
     const nameHtml = item.url
       ? `<a href="${escapeHtml(item.url)}">${escapeHtml(item.name)}</a>`
       : escapeHtml(item.name);
@@ -121,7 +115,6 @@
       if (!response.ok) return;
       const data = await response.json();
 
-      // index.html: no pill badges on the main page
       const runningContainer = document.getElementById('running-projects-list');
       if (runningContainer && Array.isArray(data.running)) {
         runningContainer.innerHTML = data.running.map(item => renderProject(item, false)).join('\n');
@@ -137,13 +130,11 @@
         deprecatedContainer.innerHTML = data.deprecated.map(item => renderProject(item, false)).join('\n');
       }
 
-      // status.html: running projects WITH status badge
       const statusContainer = document.getElementById('status-projects-list');
       if (statusContainer && Array.isArray(data.running)) {
         statusContainer.innerHTML = data.running.map(item => renderProject(item, true)).join('\n');
       }
     } catch {
-      // Fallback: static HTML is preserved
     }
   }
 
@@ -161,11 +152,10 @@
         friendsContainer.innerHTML = list.map(renderFriend).join('\n');
       }
     } catch {
-      // Fallback: static HTML is preserved
+      // Fallback
     }
   }
 
-  // Early theme initialization
   initTheme();
   initCardClicks();
 
