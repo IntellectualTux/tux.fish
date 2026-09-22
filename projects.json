@@ -1,0 +1,72 @@
+{
+  "running": [
+    {
+      "id": "spotifish",
+      "name": "spotiFish",
+      "url": "https://spotifish.tux.fish",
+      "desc": "customizable spotify overlay",
+      "status": "working fine",
+      "badge": "running"
+    },
+    {
+      "id": "mc-twth",
+      "name": "mc-twth",
+      "url": "https://mc-twth.tux.fish",
+      "desc": "configurable minecraft crowd control without revenue sharing requirements",
+      "status": "working fine",
+      "badge": "running"
+    },
+    {
+      "id": "instafish",
+      "name": "instaFish",
+      "url": "https://instafish.tux.fish",
+      "desc": "instagram embed fixer for discord",
+      "status": "working fine",
+      "badge": "running"
+    },
+    {
+      "id": "inspofish",
+      "name": "inspoFish",
+      "url": "https://inspofish.tux.fish",
+      "desc": "random sketch prompt from keywords",
+      "status": "working fine",
+      "badge": "running"
+    }
+  ],
+  "upcoming": [
+    {
+      "id": "sdv-twth",
+      "name": "sdv-twth",
+      "url": "",
+      "desc": "stardew valley crowd control without revenue sharing",
+      "status": "in progress",
+      "badge": "upcoming"
+    },
+    {
+      "id": "blink",
+      "name": "blink.tux.fish",
+      "url": "",
+      "desc": "secret for now :P",
+      "status": "in progress",
+      "badge": "upcoming"
+    },
+    {
+      "id": "secret",
+      "name": "secret name",
+      "url": "",
+      "desc": "simple scavenger hunt organizing and tracking app",
+      "status": "in progress",
+      "badge": "upcoming"
+    }
+  ],
+  "deprecated": [
+    {
+      "id": "kofi_relay",
+      "name": "ko-fi webhook relay",
+      "url": "",
+      "desc": "sunset after firebot enabled webhook proxies",
+      "status": "deprecated",
+      "badge": "deprecated"
+    }
+  ]
+}

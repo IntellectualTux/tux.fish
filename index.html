@@ -1,98 +1,121 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="author" content="intellectualtux" />
-        <meta
-            name="description"
-            content="tux's project hub | made by intellectualtux"
-        />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="icon" type="image/x-icon" href="img/favicon.gif" />
-        <title>tux dot fish</title>
-        <meta property="og:site_name" content="tux.fish" />
-        <meta property="og:title" content="tux dot fish" />
-        <meta property="og:description" content="tux's project hub" />
-        <meta property="og:url" content="https://tux.fish" />
-        <meta property="og:image" content="https://tux.fish/img/favicon.gif" />
-        <meta property="og:type" content="website" />
-        <meta name="theme-color" content="#00FF7F" />
-        <link rel="stylesheet" href="styles.css" />
-    </head>
-    <body>
-        <h1>tux.fish</h1>
-        <sub>home of current and past obsessions</sub>
-        <br />
-        <a href="/status" class="small-link">[Project Status]</a>
-        <hr />
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>tux.fish</title>
+<meta name="description" content="home of current and past obsessions">
+<meta property="og:description" content="home of current and past obsessions">
+<meta property="og:image" content="https://tux.fish/img/favicon.gif">
+<meta property="og:site_name" content="tux.fish">
+<meta property="og:title" content="tux.fish">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://tux.fish">
+<meta name="theme-color" content="#00FF7F">
+<link rel="icon" href="https://tux.fish/img/favicon.gif">
+<link rel="stylesheet" href="styles.css">
+<script src="site.js" defer></script>
+</head>
+<body>
 
-        <h2>running projects:</h2>
-        <ul>
-            <li>
-                <a
-                    class="project"
-                    id="instafish"
-                    href="https://instafish.tux.fish"
-                    >instaFish</a
-                >
-            </li>
-            <li>
-                <a
-                    class="project"
-                    id="inspofish"
-                    href="https://inspofish.tux.fish"
-                    >inspoFish</a
-                >
-            </li>
-            <li>
-                <a
-                    class="project"
-                    id="spotifish"
-                    href="https://spotifish.tux.fish"
-                    >spotiFish</a
-                >
-            </li>
-            <li>
-                <a
-                    class="project"
-                    id="mc_twth"
-                    href="https://mc-twth.tux.fish"
-                    >mc_twth</a
-                >
-            </li>
-        </ul>
-        <h2>upcoming projects:</h2>
-        <ul>
-            <li>sdv_twth</li>
-            <li>blink.tux.fish</li>
-            <li>disc-o-carp</li>
-        </ul>
-        <h2>deprecated projects:</h2>
-        <ul>
-            <li>ko-fi webhook relay</li>
-        </ul>
-        <footer>
-            <p>
-                <a class="email" href="mailto:intellectualtux@proton.me"
-                    >email me</a
-                >
-                |
-                <a class="kofi" href="https://ko-fi.tux.fish">support me</a>
-                |
-                <a class="freestuff" href="https://freebies.tux.fish"
-                    >freestuff</a
-                >
-            </p>
-            <p>
-                <a class="twitch" href="https://twitch.tux.fish">twitch</a>
-                |
-                <a class="discord" href="https://discord.tux.fish">discord</a>
-            </p>
-            <p>
-                <a class="sagi" href="https://sagi.tux.fish/">sagi</a>
-            </p>
-        </footer>
-        <!--TODO: add hover on "tux" to show username-->
-        <!--<sub id="social-username">made by tux <br/ >known across the internet as <code style="color: lightseagreen;">intellectualtux</code></sub>-->
-    </body>
+<main>
+
+  <header class="site-header">
+    <div class="title-wrap">
+      <h1>tux.fish</h1>
+      <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Toggle dark mode">
+        <span aria-hidden="true">☾</span>
+      </button>
+    </div>
+    <p class="blurb">home of tux's fleeting interests and temporary obsessions</p>
+    <nav class="site-nav" aria-label="Main Navigation">
+      <span class="current" aria-current="page">[index]</span>
+      <span class="sep">–</span>
+      <a href="/status">status</a>
+      <span class="sep">–</span>
+      <a href="https://spotifish.tux.fish">spotifish</a>
+      <span class="sep">–</span>
+      <a href="https://mc-twth.tux.fish">mc-twth</a>
+      <span class="sep">–</span>
+      <a href="https://instafish.tux.fish">instafish</a>
+      <span class="sep">–</span>
+      <a href="https://inspofish.tux.fish">inspofish</a>
+    </nav>
+  </header>
+
+  <div class="content">
+
+    <section class="about-section" aria-labelledby="about-heading">
+      <h2 id="about-heading">About</h2>
+      <p>I build small, self/hybrid-hosted tools mostly for streamers and game communities -- crowd control,
+        stream integrations, and community-focused apps -- designed to keep broadcasts interactive and independent, and player-run events simple and fun to organize and track.
+        Released without subscriptions or revenue-sharing requirements where possible.</p>
+    </section>
+
+    <section id="projects" class="projects-section" aria-labelledby="running-heading">
+      <h2 id="running-heading">Running projects</h2>
+      <div id="running-projects-list">
+        <span class="placeholder">loading data...</span>
+      </div>
+    </section>
+
+    <section class="projects-section" aria-labelledby="upcoming-heading">
+      <h2 id="upcoming-heading">Upcoming projects</h2>
+      <div id="upcoming-projects-list">
+        <span class="placeholder">loading data...</span>
+      </div>
+    </section>
+
+    <section class="projects-section" aria-labelledby="deprecated-heading">
+      <h2 id="deprecated-heading">Deprecated projects</h2>
+      <div id="deprecated-projects-list">
+        <span class="placeholder">loading data...</span>
+      </div>
+    </section>
+
+    <section class="community-collaborations-section" aria-labelledby="community-collabs-heading">
+      <h2 id="community-collabs-heading">Community & Collaborations</h2>
+      <div class="cards-grid">
+        <div class="info-card" data-href="https://membership.tux.fish" tabindex="0" role="link" aria-label="Support via Ko-fi">
+          <div class="card-title"><a href="https://ko-fi.tux.fish">Support</a></div>
+          <div class="card-desc">keeps projects running and funds new ones via <a href="https://membership.tux.fish">Ko-fi</a>.</div>
+        </div>
+        <div class="info-card" data-href="https://discord.tux.fish" tabindex="0" role="link" aria-label="Join Discord">
+          <div class="card-title"><a href="https://discord.tux.fish">Discord</a></div>
+          <div class="card-desc">join the community for announcements, testing, and feedback on <a href="https://discord.tux.fish">Discord</a>.</div>
+        </div>
+        <div class="info-card" data-href="https://freebies.tux.fish" tabindex="0" role="link" aria-label="Freebies">
+          <div class="card-title"><a href="https://freebies.tux.fish">Freebies</a></div>
+          <div class="card-desc"><a href="https://freebies.tux.fish">freestuff</a> -- a bunch of freebies.</div>
+        </div>
+      </div>
+
+      <aside class="callout" data-href="mailto:intellectualtux@proton.me" tabindex="0" role="link" aria-label="Commissioning and collaborations">
+        <div class="callout-title"><a href="mailto:intellectualtux@proton.me">Commissioning & Collaborating</a></div>
+        <p>have an idea for a custom project, or need a tool to take on a certain technical challenge? get in touch via <a href="mailto:intellectualtux@proton.me">email</a> or reach out on <a href="https://discord.tux.fish">Discord</a>.</p>
+      </aside>
+    </section>
+
+    <section class="friends-section" aria-labelledby="friends-heading">
+      <h2 id="friends-heading">Friends</h2>
+      <div class="cards-grid" id="friends-list">
+        <span class="placeholder">loading data...</span>
+      </div>
+    </section>
+
+  </div>
+
+  <footer class="site-footer">
+    <nav class="links" aria-label="Social links">
+      <a href="https://twitch.tux.fish" class="link-twitch">twitch</a>
+      <span class="sep">|</span>
+      <a href="https://discord.tux.fish" class="link-discord">discord</a>
+      <span class="sep">|</span>
+      <a href="mailto:intellectualtux@proton.me" class="link-email">email</a>
+    </nav>
+    <div class="updated">last updated September 2026</div>
+  </footer>
+
+</main>
+</body>
 </html>
