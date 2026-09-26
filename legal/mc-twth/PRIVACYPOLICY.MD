@@ -1,12 +1,12 @@
 # PRIVACY POLICY
 
 **Effective Date:** September 2, 2026  
-**Last Updated:** September 2, 2026  
+**Last Updated:** September 22, 2026  
 
 ---
 
 ### 1. Introduction
-**IntellectualTux** ("I", "me", or "my") operates **MC_TWTH** (the "Service"). This Privacy Policy explains how I handle data when you use the Application. 
+**IntellectualTux** ("I", "me", or "my") operates **MC-TWTH** (the "Service"). This Privacy Policy explains how I handle data when you use the Application. 
 
 For the purposes of applicable data protection legislation—including **Moroccan Law No. 09-08** relating to the protection of individuals with regard to the processing of personal data—IntellectualTux acts as the data controller.
 

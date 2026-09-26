@@ -1,13 +1,13 @@
 # END-USER LICENSE AGREEMENT (EULA)
 
 **Effective Date:** September 2, 2026  
-**Last Updated:** September 2, 2026
+**Last Updated:** September 22, 2026
 
 ---
 
 ## 1. Acceptance of This Agreement
 
-This End-User License Agreement (the "**Agreement**" or "**EULA**") is a binding legal contract between **IntellectualTux** ("**I**", "**me**", or "**my**") and you ("**you**" or "**your**") governing your use of **MC_TWTH** and any related documentation, updates, and components (the "**Application**"). It applies whether the Application is downloaded, pre-installed, accessed online, or delivered through a third-party platform or application store.
+This End-User License Agreement (the "**Agreement**" or "**EULA**") is a binding legal contract between **IntellectualTux** ("**I**", "**me**", or "**my**") and you ("**you**" or "**your**") governing your use of **MC-TWTH** and any related documentation, updates, and components (the "**Application**"). It applies whether the Application is downloaded, pre-installed, accessed online, or delivered through a third-party platform or application store.
 
 By downloading, installing, copying, accessing, or otherwise using the Application, or by clicking "I Agree" (or similar confirmation), you confirm that you have read and understood this Agreement and that you agree to be bound by its terms. If you do not agree, do not download, install, or use the Application, and immediately delete any copies in your possession.
 
@@ -19,7 +19,7 @@ If you are accepting this Agreement on behalf of a company, organization, or oth
 
 For the purposes of this Agreement:
 
-* **"Application"** means the software identified as **MC_TWTH** in object-code or executable form, together with its documentation, components, and any updates provided under this Agreement.
+* **"Application"** means the software identified as **MC-TWTH** in object-code or executable form, together with its documentation, components, and any updates provided under this Agreement.
 * **"Documentation"** means user manuals, technical guides, specifications, and help materials made available by me for the Application.
 * **"Device"** means a computer, smartphone, tablet, server, or other hardware terminal that you own or control on which the Application is executed or installed.
 * **"Update"** means a patch, bug fix, security patch, feature enhancement, upgrade, or new iteration of the Application provided under this Agreement.
@@ -58,7 +58,7 @@ Except to the extent explicitly authorized by this Agreement or mandatory applic
 
 The Application—including its source code, executable code, visual elements, layout, sound design, interface design, algorithms, and Documentation—is protected by copyright, trademark, and intellectual property legislation, including **Moroccan Law No. 2-00 on Copyright and Related Rights** (as amended).
 
-* **Trademarks:** "**IntellectualTux**", "**MC_TWTH**", and associated logos or branding elements are my trademarks. You receive no right or license to use these trademarks without prior written authorization.
+* **Trademarks:** "**IntellectualTux**", "**MC-TWTH**", and associated logos or branding elements are my trademarks. You receive no right or license to use these trademarks without prior written authorization.
 * **Feedback:** If you provide suggestions, feature requests, error reports, or feedback regarding the Application, you grant me a perpetual, irrevocable, worldwide, royalty-free, fully paid-up, and sublicensable license to use, implement, and commercialize such feedback without restriction or financial obligation to you.
 * **Third-Party Components:** The Application may contain third-party or open-source software libraries. Details regarding these components and their respective licenses are listed in the Documentation. Open-source licenses govern those specific components and take precedence over this EULA in the event of direct conflict.
 
